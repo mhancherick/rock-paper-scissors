@@ -72,13 +72,13 @@ function playRound(playerSelection, computerSelection) {
             outcomeOutput.textContent = "You both chose Rock! It's a Tie!";
         }
         if (playerWins == 5) {
-            finalResult.textContent = "You got to 5 wins! You've won the game!";
+            finalResult.textContent = "You got to 5 wins! You've won the game! ☺";
             rockButton.disabled = true;
             paperButton.disabled = true;
             scissorsButton.disabled = true;
         }
         else if(computerWins == 5) {
-            finalResult.textContent = "The computer got to 5 wins! You've lost the game!";
+            finalResult.textContent = "The computer got to 5 wins! You've lost the game! ☹";
             rockButton.disabled = true;
             paperButton.disabled = true;
             scissorsButton.disabled = true;
@@ -103,13 +103,13 @@ function playRound(playerSelection, computerSelection) {
         outcomeOutput.textContent = "You both chose Paper! It's a Tie!";
     }
     if (playerWins == 5) {
-        finalResult.textContent = "You got to 5 wins! You've won the game!";
+        finalResult.textContent = "You got to 5 wins! You've won the game! ☺";
         rockButton.disabled = true;
         paperButton.disabled = true;
         scissorsButton.disabled = true;
     }
     else if(computerWins == 5) {
-        finalResult.textContent = "The computer got to 5 wins! You've lost the game!";
+        finalResult.textContent = "The computer got to 5 wins! You've lost the game! ☹";
         rockButton.disabled = true;
         paperButton.disabled = true;
         scissorsButton.disabled = true;
@@ -136,13 +136,13 @@ scissorsButton.addEventListener("click", () => {
         outcomeOutput.textContent = "You both chose Rock! It's a Tie!";
     }
     if (playerWins == 5) {
-        finalResult.textContent = "You got to 5 wins! You've won the game!";
+        finalResult.textContent = "You got to 5 wins! You've won the game! ☺";
         rockButton.disabled = true;
         paperButton.disabled = true;
         scissorsButton.disabled = true;
     }
     else if(computerWins == 5) {
-        finalResult.textContent = "The computer got to 5 wins! You've lost the game!";
+        finalResult.textContent = "The computer got to 5 wins! You've lost the game! ☹";
         rockButton.disabled = true;
         paperButton.disabled = true;
         scissorsButton.disabled = true;
